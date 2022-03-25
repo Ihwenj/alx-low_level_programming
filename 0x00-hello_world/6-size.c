@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  *main -entry point
  *print function for all the size of typs in the system
@@ -13,7 +13,5 @@ printf("the size of long integer is: %d byte(s)\n", sizeof(long int));
 printf("the size of unsigned long integer is: %d byte(s)\n", sizeof(unsigned long int));
 printf("the size of long long integer is: %d byte(s)\n", sizeof(long long int));
 printf("the size of unsigned lng long integer is: %d byte(s)\n", sizeof(unsigned long long int));
-printf("the size of float is: %d byte(s)\n", sizeof(float));
-printf("the size of double is: %d byte(s)\n", sizeof(double));
-printf("the size of long double is: %d byte(s)\n", sizeof(long double));
+
 }
