@@ -1,15 +1,19 @@
-#include <stdio.h>
+#include <stdio>
 /**
- * main -entry point
+ *main -entry point
+ *print function for all the size of typs in the system
  *
- * Return: 0 when successful
+ * Return: 0 when sucessful
  */
 int main(void)
 {
-printf("the size of char is : %d\n", sizeof(char));
-printf("the size of integer is : %d\n", sizeof(int));
-printf("the size of long int is: %d\n", sizeof(long int));
-printf("size of long long int is: %d\n", sizeof(long long int));
-printf("size of float is %d\n", sizeof(float));
-return (0);
+printf("the size of char is: %d byte(s)\n", sizeof(char));
+printf("the size of integer is: %d byte(s)\n", sizeof(int));
+printf("the size of long integer is: %d byte(s)\n", sizeof(long int));
+printf("the size of unsigned long integer is: %d byte(s)\n", sizeof(unsigned long int));
+printf("the size of long long integer is: %d byte(s)\n", sizeof(long long int));
+printf("the size of unsigned lng long integer is: %d byte(s)\n", sizeof(unsigned long long int));
+printf("the size of float is: %d byte(s)\n", sizeof(float));
+printf("the size of double is: %d byte(s)\n", sizeof(double));
+printf("the size of long double is: %d byte(s)\n", sizeof(long double));
 }
